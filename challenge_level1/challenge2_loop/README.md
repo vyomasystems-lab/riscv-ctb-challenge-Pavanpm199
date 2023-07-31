@@ -8,6 +8,6 @@ Hence there is an increment of +4 in address. The code goes into loop until sum 
 the sum of 1st two values is equal to 3rd in every iteration. Hence the code never breaks out of the loop.
 
 Solution:
-To solve this, I have used t5 register which has the value 3. As the data requires 3 iterations to check all values, I increment t6(which is intially 0) by 1. 
+To solve this, I have used t5 register which has the value 3. As this set of data requires 3 iterations to check all values, I increment t6(which is intially 0) by 1 in each iteration. 
 When the t6 equals t5 control goes to end of code
 ![Screenshot (461)](https://github.com/vyomasystems-lab/riscv-ctb-challenge-Pavanpm199/assets/84024750/95c888bc-90ae-4bd9-ac4e-9058f5a20a65)
